@@ -1,0 +1,152 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin-top: 100px;
+    background-color: #E4E9FD;
+    background: -webkit-linear-gradient(0deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 600px;
+    font-family: 'helvetica neue';
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* min-height: 100%; */
+  }
+ .container{
+   /* height: 100%;
+   width: 100%; */
+   display: flex;
+ }
+  
+.box h1 {
+    color: rgb(135, 32, 204);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+    float: left;
+  }
+  
+  #heading {
+    background-color: #9425df;
+    text-align: center;
+  }
+  
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+  }
+  
+  .item:last-child {
+    border-bottom: 0;
+  }
+  
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+  
+  form.item {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #A683E3;
+    color: #fff;
+    font-size: 30px;
+    padding: 6px;margin-right: 6px;
+    border-width: 0;
+  }
+  
+  .item input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #A683E3;
+  }
+  
+  ::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+  
+  .footer {
+    display: block;
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top:103px;
+  }
+  .list{
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    width: 25%;
+    text-align: center;
+    font-weight: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    color: rgb(90, 89, 89);
+  }
+  .list h1{
+   
+      color: rgb(135, 32, 204);
+      padding: 10px;
+      text-align: center;
+
+  }
+  .listItem{
+    font-size: 23px;
+    margin-left: 40px;
+    border-bottom: 1px solid #F1F1F1;
+  }
+ 
+  .list input{
+    text-align: left;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+    
+  }
